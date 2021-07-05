@@ -1,0 +1,8 @@
+$yellow: #F6C82A;
+$light-gray: liten($dark-gray, 10%);
+$dark-gray: #121212;
+$black: #000000;
+
+ 
+$primary-font: 'Sen', sans-serif;
+$secondary-font: 'Sedgwick Ave', cursive;
