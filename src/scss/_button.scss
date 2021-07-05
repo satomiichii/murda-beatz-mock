@@ -1,0 +1,30 @@
+%btn {
+  // display: inline-block;
+  font-family: $primary-font;
+  border-radius: 30px;
+  padding: 8px 25px;
+  font-size: 0.8rem;
+
+  &:hover {
+    transform: scale(0.98);
+  }
+}
+
+.btn-primary {
+  @extend %btn;
+  background-color: $yellow;
+
+  &:hover {
+    background-color: darken($yellow, 10%);
+  }
+}
+
+.btn-secondary {
+  @extend %btn;
+  background-color: $black;
+  color: $yellow;
+
+  &:hover {
+    background-color: $light-gray;
+  }
+}

@@ -1,0 +1,58 @@
+@import 'settings';
+@import '~foundation-sites/scss/foundation';
+@import 'utility.scss';
+@import 'button.scss';
+@include foundation-everything(true);
+
+body {
+  background-color: $yellow;
+  font-family: $primary-font;
+  font-weight: 800;
+  color: $black;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: $black;
+}
+
+ul {
+  list-style-type: none;
+}
+
+img {
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  position: fixed;
+
+  ul {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  li {
+    padding: 15px;
+  }
+
+  a:hover {
+    color: $light-gray;
+  }
+}
+
+#header {
+  div {
+    font-size: 2rem;
+    margin: 0;
+  }
+  p {
+    font-family: $secondary-font;
+    font-size: 0.8rem;
+    margin: 0;
+  }
+}
