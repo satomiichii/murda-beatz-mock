@@ -6,3 +6,31 @@ $white: #ffffff;
 
 $primary-font: 'Sen', sans-serif;
 $secondary-font: 'Sedgwick Ave', cursive;
+
+// Font //
+
+.primary-white {
+  font-family: $primary-font;
+  color: $white;
+}
+
+.primary-black {
+  font-family: $primary-font;
+  color: $black;
+}
+
+.primary-white-thin {
+  font-family: $primary-font;
+  color: $white;
+  font-weight: 400;
+}
+
+.secondary-white {
+  font-family: $secondary-font;
+  color: $white;
+}
+
+.secondary-black {
+  font-family: $secondary-font;
+  color: $black;
+}

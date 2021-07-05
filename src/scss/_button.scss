@@ -3,7 +3,8 @@
   font-family: $primary-font;
   font-weight: 800;
   border-radius: 30px;
-  padding: 8px 25px;
+  padding: 8px 35px;
+  margin: 15px 0;
   font-size: 0.8rem;
 
   &:hover {
@@ -11,7 +12,7 @@
   }
 }
 
-.btn-primary {
+.btn-yellow {
   @extend %btn;
   background-color: $yellow;
 
@@ -20,7 +21,7 @@
   }
 }
 
-.btn-secondary {
+.btn-black {
   @extend %btn;
   background-color: $black;
   color: $yellow;

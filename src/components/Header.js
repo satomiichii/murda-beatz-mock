@@ -8,7 +8,7 @@ function Header() {
         <div className="column large-4">
           <p>CHECK OUT ON SPLICE</p>
           <div>MURDA BEATZ' QUARANTINE KIT SAMPLE PACK</div>
-          <button className="btn-secondary">LISTEN NOW</button>
+          <button className="btn-black">LISTEN NOW</button>
         </div>
         <div className="column large-4">
           <img src={main_pic} alt="Main" />

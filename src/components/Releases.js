@@ -26,7 +26,7 @@ function Releases() {
           <img src={music_5} alt="music_5" />
         </div>
       </div>
-      <button href="#" className="btn-primary">
+      <button href="#" className="btn-yellow">
         VIEW ALL RELEASES
       </button>
     </section>
