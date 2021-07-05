@@ -3,7 +3,7 @@ import React from 'react';
 function Videos() {
   return (
     <section id="videos">
-      <div>This is Videos</div>
+      <div className="title-darkGray">VIDEOS</div>
     </section>
   );
 }

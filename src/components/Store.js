@@ -3,7 +3,7 @@ import React from 'react';
 function Store() {
   return (
     <section id="store">
-      <div>This is Store</div>
+      <div className="title-yellow">STORE</div>
     </section>
   );
 }

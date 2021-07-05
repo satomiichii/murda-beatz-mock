@@ -1,0 +1,31 @@
+%title {
+  font-family: $primary-font;
+  font-weight: 800;
+  font-size: 2rem;
+  letter-spacing: 0.5rem;
+  color: $white;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: $white;
+}
+
+.title-lightGray {
+  @extend %title;
+  -webkit-text-fill-color: $light-gray;
+}
+
+.title-darkGray {
+  @extend %title;
+  -webkit-text-fill-color: $dark-gray;
+}
+
+.title-black {
+  @extend %title;
+  -webkit-text-fill-color: $black;
+}
+
+.title-yellow {
+  @extend %title;
+  color: $black;
+  -webkit-text-fill-color: $yellow;
+  -webkit-text-stroke-color: $black;
+}

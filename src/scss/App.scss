@@ -2,6 +2,7 @@
 @import '~foundation-sites/scss/foundation';
 @import 'utility.scss';
 @import 'button.scss';
+@import 'section-title.scss';
 @include foundation-everything(true);
 
 body {
@@ -46,6 +47,8 @@ nav {
 }
 
 #header {
+  padding-bottom: 20px;
+
   div {
     font-size: 2rem;
     margin: 0;
@@ -54,5 +57,55 @@ nav {
     font-family: $secondary-font;
     font-size: 0.8rem;
     margin: 0;
+  }
+}
+
+#releases {
+  background-color: $light-gray;
+  padding: 30px;
+
+  div {
+    margin: 6px;
+    padding: 0;
+  }
+}
+
+#tour {
+  background-color: $black;
+  padding: 30px;
+}
+
+#videos {
+  background-color: $dark-gray;
+  padding: 30px;
+}
+
+#store {
+  background-color: $yellow;
+  padding: 30px;
+}
+
+#photos {
+  background-color: $black;
+  padding: 30px;
+}
+
+#subscribe {
+  background-color: $dark-gray;
+  padding: 30px;
+}
+
+#footer {
+  background-color: $black;
+  color: $yellow;
+  display: flex;
+  justify-content: center;
+
+  a {
+    color: $yellow;
+  }
+
+  div {
+    margin: 7px;
   }
 }

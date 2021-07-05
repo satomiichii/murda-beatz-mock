@@ -11,7 +11,7 @@ function Header() {
           <button className="btn-secondary">LISTEN NOW</button>
         </div>
         <div className="column large-4">
-          <img src={main_pic} alt="Main picture" />
+          <img src={main_pic} alt="Main" />
         </div>
         <div className="column large-1">arrow</div>
       </div>

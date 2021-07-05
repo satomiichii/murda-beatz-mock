@@ -3,7 +3,7 @@ import React from 'react';
 function Tour() {
   return (
     <section id="tour">
-      <div>This is Tour</div>
+      <div className="title-black">TOUR</div>
     </section>
   );
 }

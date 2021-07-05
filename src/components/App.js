@@ -1,4 +1,14 @@
-import { Nav, Header, Releases, Tour, Videos, Store, Photos, Footer } from './';
+import {
+  Nav,
+  Header,
+  Releases,
+  Tour,
+  Videos,
+  Store,
+  Photos,
+  Subscribe,
+  Footer,
+} from './';
 import '../scss/App.scss';
 
 function App() {
@@ -11,6 +21,7 @@ function App() {
       <Videos />
       <Store />
       <Photos />
+      <Subscribe />
       <Footer />
     </div>
   );

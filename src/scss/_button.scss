@@ -1,6 +1,7 @@
 %btn {
   // display: inline-block;
   font-family: $primary-font;
+  font-weight: 800;
   border-radius: 30px;
   padding: 8px 25px;
   font-size: 0.8rem;
@@ -25,6 +26,6 @@
   color: $yellow;
 
   &:hover {
-    background-color: $light-gray;
+    background-color: lighten($black, 15%);
   }
 }
