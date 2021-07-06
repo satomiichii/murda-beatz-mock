@@ -15,34 +15,34 @@ function Photos() {
     <section id="photos">
       <div className="title-black">PHOTOS</div>
       <div className="row align-center photo-container">
-        <div className="column medium-2">
+        <div className="column medium-2 small-12">
           <img src={photo_1} alt="photo_1" />
         </div>
-        <div className="column medium-2">
+        <div className="column medium-2 small-12">
           <img src={photo_2} alt="photo_2" />
         </div>
-        <div className="column medium-2">
+        <div className="column medium-2 small-12">
           <img src={photo_3} alt="photo_3" />
         </div>
-        <div className="column medium-2">
+        <div className="column medium-2 small-12">
           <img src={photo_4} alt="photo_4" />
         </div>
-        <div className="column medium-2">
+        <div className="column medium-2 small-12">
           <img src={photo_5} alt="photo_5" />
         </div>
-        <div className="column medium-2">
+        <div className="column medium-2 small-12">
           <img src={photo_6} alt="photo_6" />
         </div>
-        <div className="column medium-2">
+        <div className="column medium-2 small-12">
           <img src={photo_7} alt="photo_7" />
         </div>
-        <div className="column medium-2">
+        <div className="column medium-2 small-12">
           <img src={photo_8} alt="photo_8" />
         </div>
-        <div className="column medium-2">
+        <div className="column medium-2 small-12">
           <img src={photo_9} alt="photo_9" />
         </div>
-        <div className="column medium-2">
+        <div className="column medium-2 small-12">
           <img src={photo_10} alt="photo_10" />
         </div>
       </div>

@@ -10,19 +10,19 @@ function Releases() {
     <section id="releases">
       <h1 className="title-lightGray">RELEASES</h1>
       <div className="row align-center">
-        <div className="column large-4">
+        <div className="column large-4 small-12">
           <img src={music_1} alt="music_1" />
         </div>
-        <div className="column large-2">
+        <div className="column large-2 small-12">
           <img src={music_2} alt="music_2" />
         </div>
-        <div className="column large-2">
+        <div className="column large-2 small-12">
           <img src={music_3} alt="music_3" />
         </div>
-        <div className="column large-2">
+        <div className="column large-2 small-12">
           <img src={music_4} alt="music_4" />
         </div>
-        <div className="column large-2">
+        <div className="column large-2 small-12">
           <img src={music_5} alt="music_5" />
         </div>
       </div>
