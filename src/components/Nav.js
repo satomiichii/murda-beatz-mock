@@ -18,7 +18,7 @@ function Nav() {
             <a href="#">TOUR</a>
           </li>
           <li>
-            <a href="#">VIDEOS</a>
+            <a href="#videos">VIDEOS</a>
           </li>
           <li>
             <a href="#">STORE</a>

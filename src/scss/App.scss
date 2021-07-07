@@ -73,6 +73,14 @@ nav {
     right: 15px;
   }
 
+  #releases {
+    background: linear-gradient(
+      90deg,
+      $light-gray 100%,
+      $dark-gray 0%
+    ) !important;
+  }
+
   #footer {
     flex-direction: column;
     align-items: center;
@@ -146,7 +154,7 @@ nav {
 }
 
 #releases {
-  background-color: $light-gray;
+  background: linear-gradient(90deg, $light-gray 65%, $dark-gray 35%);
   padding: 30px;
 
   div {
