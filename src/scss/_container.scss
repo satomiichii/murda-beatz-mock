@@ -1,0 +1,48 @@
+.section-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contents-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+
+.album-container {
+  display: flex;
+  justify-content: center;
+}
+
+.subscribe-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 30px;
+}
+
+@media (max-width: 500px) {
+  .btn-container {
+    justify-content: center;
+    padding: 0;
+  }
+
+  .subscribe-container {
+    padding: 30px 10px;
+    margin: 0px 15px;
+    justify-content: center;
+    align-items: center;
+    .check-boxes {
+      flex-direction: column;
+    }
+    .submit-btn {
+      display: flex;
+      justify-content: center;
+    }
+  }
+}

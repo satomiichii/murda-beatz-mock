@@ -3,8 +3,8 @@ import { countries } from '../asset/countryList';
 
 function Subscribe() {
   return (
-    <section id="subscribe">
-      <div>
+    <section id="subscribe" className="section-container">
+      <div className="subscribe-container">
         <div className="title-darkGray">SUBSCRIBE</div>
         <form onSubmit="">
           <div className="row">
@@ -31,25 +31,31 @@ function Subscribe() {
           </div>
           <div className="secondary-white">SUBSCRIBE TO EMAILS FROM:</div>
           <div className="check-boxes">
-            <input type="checkbox" id="murdabeatz" />
+            <div>
+              <input type="checkbox" id="murdabeatz" />
+              <label for="murdabeatz">MURDA BEATS</label>
+            </div>
+            <div>
+              <input type="checkbox" id="interscope" />
+              <label for="interscope">INTERSCOPE RECORDS</label>
+            </div>
+            <div>
+              <input type="checkbox" id="universal" />
 
-            <label for="murdabeatz">MURDA BEATS</label>
-            <input type="checkbox" id="interscope" />
-
-            <label for="interscope">INTERSCOPE RECORDS</label>
-            <input type="checkbox" id="universal" />
-
-            <label for="universal">UNIVERSAL MUSIC GROUP</label>
+              <label for="universal">UNIVERSAL MUSIC GROUP</label>
+            </div>
           </div>
 
           <p className="primary-white">
-            BY SUBMITTING THIS FORM, YOU AGREE TO THE{' '}
+            BY SUBMITTING THIS FORM, YOU AGREE TO THE
             <a href="#" className="primary-yellow">
               UNIVESAL MUSIC GROUP PRIVACY POLICY
             </a>
             .
           </p>
-          <input type="submit" className="input-yellow" value="SUBMIT" />
+          <div className="submit-btn">
+            <input type="submit" className="input-yellow" value="SUBMIT" />
+          </div>
         </form>
       </div>
     </section>
