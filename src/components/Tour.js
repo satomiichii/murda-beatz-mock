@@ -1,6 +1,6 @@
 import React from 'react';
 
-function Tour() {
+function Tour({ anchor }) {
   return (
     <section id="tour" className="section-container">
       <div className="contents-container">
@@ -79,7 +79,7 @@ function Tour() {
             </div>
           </div>
         </div>
-        <div className="btn-container">
+        <div className="btn-container" ref={anchor}>
           <button href="#" className="btn-yellow">
             VIEW ALL DATES
           </button>

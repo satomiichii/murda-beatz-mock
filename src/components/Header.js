@@ -1,14 +1,17 @@
 import React from 'react';
 import main_pic from '../asset/images/header_pic.png';
 
-function Header() {
+function Header({ onClickScroll }) {
+  console.log(onClickScroll);
   return (
     <section id="header">
       <div className="row align-bottom align-center">
         <div className="column medium-order-1 small-order-3 medium-4 small-12 title">
           <p>CHECK OUT ON SPLICE</p>
           <div>MURDA BEATZ' QUARANTINE KIT SAMPLE PACK</div>
-          <button className="btn-black">LISTEN NOW</button>
+          <button className="btn-black" onClick={onClickScroll}>
+            LISTEN NOW
+          </button>
         </div>
         <div className="column medium-order-2 small-order-1 medium-4 small-12 main-pic">
           <img src={main_pic} alt="Main" />

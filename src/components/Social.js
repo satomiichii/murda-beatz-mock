@@ -7,7 +7,7 @@ function Social() {
         <a href="#">
           <i class="fas fa-envelope"></i>
         </a>
-        <a>
+        <a href="#">
           <i class="fab fa-spotify"></i>
         </a>
         <a href="#">
