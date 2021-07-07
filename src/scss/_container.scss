@@ -10,6 +10,12 @@
   flex-direction: column;
 }
 
+.social-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .album-container {
   display: flex;
   justify-content: center;

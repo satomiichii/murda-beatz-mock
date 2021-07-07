@@ -1,5 +1,6 @@
 import {
   Nav,
+  Social,
   Header,
   Releases,
   Tour,
@@ -15,6 +16,7 @@ function App() {
   return (
     <div className="App">
       <Nav />
+      <Social />
       <Header />
       <Releases />
       <Tour />

@@ -110,6 +110,20 @@ nav {
   }
 }
 
+#social {
+  position: fixed;
+  right: 30px;
+  top: 160px;
+
+  a {
+    margin: 8px 0;
+  }
+
+  a:hover {
+    color: $light-gray;
+  }
+}
+
 #header {
   width: 100%;
   padding-bottom: 20px;
