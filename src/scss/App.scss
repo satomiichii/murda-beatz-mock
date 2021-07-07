@@ -68,61 +68,6 @@ nav {
   }
 }
 
-@media (max-width: 500px) {
-  #social {
-    right: 15px;
-  }
-
-  #releases {
-    background: linear-gradient(
-      90deg,
-      $light-gray 100%,
-      $dark-gray 0%
-    ) !important;
-  }
-
-  #footer {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  nav {
-    .logo {
-      width: 80px;
-    }
-    .nav-menu {
-      .menu-icon {
-        display: flex;
-      }
-      .menu-items {
-        display: none;
-      }
-      #hidden {
-        position: absolute;
-        right: 0px;
-        top: 80px;
-        width: 100%;
-        height: auto;
-        background-color: $yellow;
-        display: flex;
-        flex-direction: column;
-        text-align: right;
-
-        li {
-          margin: 10px;
-          padding-right: 10px;
-        }
-      }
-    }
-  }
-
-  #last-line {
-    border-style: none none solid none;
-    border-width: 0.1px;
-    border-color: rgba(246, 200, 42, 0.5);
-  }
-}
-
 #social {
   position: fixed;
   right: 27px;
@@ -177,14 +122,17 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
     margin: 10px 15px;
     padding: 5px 0px 20px;
   }
 
   .date {
     padding-left: 0;
+    flex: 40%;
   }
   .ticket {
+    flex: 30%;
     display: flex;
     justify-content: space-evenly;
   }
@@ -269,5 +217,60 @@ nav {
 
   div {
     margin: 7px;
+  }
+}
+
+@media (max-width: 500px) {
+  #social {
+    right: 15px;
+  }
+
+  #releases {
+    background: linear-gradient(
+      90deg,
+      $light-gray 100%,
+      $dark-gray 0%
+    ) !important;
+  }
+
+  #footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    .logo {
+      width: 80px;
+    }
+    .nav-menu {
+      .menu-icon {
+        display: flex;
+      }
+      .menu-items {
+        display: none;
+      }
+      #hidden {
+        position: absolute;
+        right: 0px;
+        top: 80px;
+        width: 100%;
+        height: auto;
+        background-color: $yellow;
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+
+        li {
+          margin: 10px;
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+
+  #last-line {
+    border-style: none none solid none;
+    border-width: 0.1px;
+    border-color: rgba(246, 200, 42, 0.5);
   }
 }
