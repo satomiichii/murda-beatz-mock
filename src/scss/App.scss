@@ -1,5 +1,6 @@
-@import 'settings';
-@import '~foundation-sites/scss/foundation';
+@import './foundation/settings/settings';
+@import './foundation/global';
+@import './foundation/foundation';
 @import 'utility.scss';
 @import 'button.scss';
 @import 'section-title.scss';
@@ -32,12 +33,13 @@ img {
 
 nav {
   width: 100vw;
-  background-color: rgba(246, 200, 42, 0.9);
+  background-color: rgba(246, 200, 42, 0.95);
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 20px;
   position: fixed;
+  z-index: 2;
 
   a:hover {
     color: $light-gray;
@@ -70,6 +72,7 @@ nav {
   position: fixed;
   right: 27px;
   top: 160px;
+  z-index: 1;
 
   a {
     margin: 8px 0;
