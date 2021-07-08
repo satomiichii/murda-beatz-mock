@@ -69,7 +69,7 @@ nav {
 
 #social {
   position: fixed;
-  right: 30px;
+  right: 35px;
   top: 160px;
   z-index: 1;
 
@@ -101,9 +101,22 @@ nav {
   background: linear-gradient(90deg, $light-gray 65%, $dark-gray 35%);
   padding: 30px;
 
-  div {
-    margin: 6px;
-    padding: 0;
+  .album-container {
+    .big-img {
+      margin-right: 6px;
+      padding: 5px;
+    }
+
+    .small-img {
+      padding: 5px;
+    }
+    .outer {
+      margin-right: 0px;
+
+      .inner {
+        padding: 3px 6px 3px;
+      }
+    }
   }
 }
 
@@ -230,6 +243,13 @@ nav {
       $light-gray 100%,
       $dark-gray 0%
     ) !important;
+    .contents-container {
+      .album-container {
+        .big-img {
+          padding: 2.5px;
+        }
+      }
+    }
   }
 
   #tour {

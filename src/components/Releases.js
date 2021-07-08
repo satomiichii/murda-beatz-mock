@@ -11,20 +11,28 @@ function Releases() {
       <div className="contents-container">
         <h1 className="title-lightGray">RELEASES</h1>
         <div className="row album-container">
-          <div className="colmuns medium-4 small-12">
-            <img src={music_1} alt="music_1" />
+          <div className="colmuns medium-5 small-12 big-img">
+            <div className="row">
+              <div className="column medium-12 small-12">
+                <img src={music_1} alt="music_1" />
+              </div>
+            </div>
           </div>
-          <div className="colmuns medium-2 small-12">
-            <img src={music_2} alt="music_2" />
-          </div>
-          <div className="colmuns medium-2 small-12">
-            <img src={music_3} alt="music_3" />
-          </div>
-          <div className="colmuns medium-2 small-12">
-            <img src={music_4} alt="music_4" />
-          </div>
-          <div className="colmuns medium-2 small-12">
-            <img src={music_5} alt="music_5" />
+          <div className="column medium-5 small-12 small-img">
+            <div className="row outer align-justify">
+              <div className="colmuns medium-6 small-12 inner">
+                <img src={music_2} alt="music_2" className="smaller-img" />
+              </div>
+              <div className="colmuns medium-6 small-12 inner">
+                <img src={music_3} alt="music_3" className="smaller-img" />
+              </div>
+              <div className="colmuns medium-6 small-12 inner">
+                <img src={music_4} alt="music_4" className="smaller-img" />
+              </div>
+              <div className="colmuns medium-6 small-12 inner">
+                <img src={music_5} alt="music_5" className="smaller-img" />
+              </div>
+            </div>
           </div>
         </div>
         <div className="btn-container">

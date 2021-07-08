@@ -12,22 +12,22 @@ function Nav() {
       <div className="nav-menu">
         <ul className="menu-items" id={showMenu ? 'hidden' : ''}>
           <li>
-            <a href="#">RELEASES</a>
+            <a href="#releases">RELEASES</a>
           </li>
           <li>
-            <a href="#">TOUR</a>
+            <a href="#tour">TOUR</a>
           </li>
           <li>
             <a href="#videos">VIDEOS</a>
           </li>
           <li>
-            <a href="#">STORE</a>
+            <a href="#store">STORE</a>
           </li>
           <li>
-            <a href="#">PHOTOS</a>
+            <a href="#photos">PHOTOS</a>
           </li>
           <li>
-            <a href="#">SUBSCRIBE</a>
+            <a href="#subcribe">SUBSCRIBE</a>
           </li>
         </ul>
         <button

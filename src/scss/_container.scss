@@ -32,6 +32,12 @@
   padding-right: 30px;
 }
 
+.btn-container-header {
+  @extend .btn-container;
+  justify-content: flex-start;
+  padding-left: 0;
+}
+
 @media (max-width: 500px) {
   .btn-container {
     justify-content: center;
