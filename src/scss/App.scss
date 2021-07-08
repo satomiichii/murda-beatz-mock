@@ -1,6 +1,5 @@
-@import './foundation/settings/settings';
-@import './foundation/global';
-@import './foundation/foundation';
+@import 'settings';
+@import 'foundation';
 @import 'utility.scss';
 @import 'button.scss';
 @import 'section-title.scss';
