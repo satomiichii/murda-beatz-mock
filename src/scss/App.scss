@@ -5,7 +5,7 @@
 @import 'section-title.scss';
 @import 'form-input.scss';
 @import 'container.scss';
-@include foundation-everything(true);
+@include foundation-everything();
 
 body {
   width: 100vw;
