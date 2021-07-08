@@ -32,7 +32,7 @@ img {
 
 nav {
   width: 100vw;
-  background-color: rgba(246, 200, 42, 0.95);
+  background-color: rgba(246, 200, 42, 0.9);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -69,7 +69,7 @@ nav {
 
 #social {
   position: fixed;
-  right: 27px;
+  right: 30px;
   top: 160px;
   z-index: 1;
 
@@ -232,6 +232,12 @@ nav {
     ) !important;
   }
 
+  #tour {
+    .date {
+      padding: 0 20px;
+    }
+  }
+
   #footer {
     flex-direction: column;
     align-items: center;
@@ -254,7 +260,7 @@ nav {
         top: 80px;
         width: 100%;
         height: auto;
-        background-color: $yellow;
+        background-color: rgba(246, 200, 42, 0.95);
         display: flex;
         flex-direction: column;
         text-align: right;
