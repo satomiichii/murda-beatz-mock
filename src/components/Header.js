@@ -9,7 +9,11 @@ function Header({ onClickScroll }) {
         <div className="column medium-order-1 small-order-3 medium-4 small-12 title">
           <p>CHECK OUT ON SPLICE</p>
           <div>MURDA BEATZ' QUARANTINE KIT SAMPLE PACK</div>
-          <button className="btn-black" onClick={onClickScroll}>
+          <button
+            type="button"
+            className="success button"
+            onClick={onClickScroll}
+          >
             LISTEN NOW
           </button>
         </div>
