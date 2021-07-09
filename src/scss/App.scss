@@ -69,7 +69,7 @@ nav {
 
 #social {
   position: fixed;
-  right: 35px;
+  right: 45px;
   top: 160px;
   z-index: 1;
 
@@ -158,6 +158,21 @@ nav {
 #videos {
   background-color: $dark-gray;
   padding: 30px;
+
+  .video {
+    margin: 10px;
+  }
+
+  .focused {
+    flex: 2;
+  }
+
+  .owl-prev,
+  .owl-next {
+    font-size: 2.3rem;
+    color: $yellow;
+    margin: 5px;
+  }
 }
 
 #store {

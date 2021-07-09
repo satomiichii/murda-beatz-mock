@@ -21,6 +21,11 @@
   justify-content: center;
 }
 
+.video-container {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 .subscribe-container {
   display: flex;
   flex-direction: column;
