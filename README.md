@@ -4,6 +4,6 @@ https://murda-beatz-mock.herokuapp.com/
 
 # Tech Stack
 
--React
--Sass
--Foundation 6
+- React
+- Sass
+- Foundation 6
