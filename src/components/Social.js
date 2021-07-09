@@ -1,26 +1,26 @@
 import React from 'react';
 
-function Social() {
+function Social(prop) {
   return (
     <section id="social">
       <div className="social-container">
         <a href="#">
-          <i class="fas fa-envelope"></i>
+          <i className="fas fa-envelope"></i>
         </a>
         <a href="#">
-          <i class="fab fa-spotify"></i>
+          <i className="fab fa-spotify"></i>
         </a>
         <a href="#">
-          <i class="fas fa-music"></i>
+          <i className="fas fa-music"></i>
         </a>
         <a href="#">
-          <i class="fab fa-instagram"></i>
+          <i className="fab fa-instagram"></i>
         </a>
         <a href="#">
-          <i class="fab fa-twitter"></i>
+          <i className="fab fa-twitter"></i>
         </a>
         <a href="#">
-          <i class="fab fa-facebook-f"></i>
+          <i className="fab fa-facebook-f"></i>
         </a>
       </div>
     </section>

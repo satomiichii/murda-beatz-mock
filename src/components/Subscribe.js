@@ -11,6 +11,7 @@ function Subscribe() {
             <input
               type="email"
               name="email"
+              required
               placeholder="EMAIL ADDRESS"
               aria-label="Email"
               className="columns medium-5 small-12"
@@ -19,6 +20,7 @@ function Subscribe() {
               name="country"
               placeholder="COUNTRY"
               aria-label="Country"
+              required
               className="columns medium-5 small-12"
             >
               <option className="country" value="" disabled selected>
