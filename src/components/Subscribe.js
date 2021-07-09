@@ -35,7 +35,7 @@ function Subscribe() {
           <div className="check-boxes">
             <div>
               <input type="checkbox" id="murdabeatz" />
-              <label for="murdabeatz">MURDA BEATS</label>
+              <label for="murdabeatz">MURDA BEATZ</label>
             </div>
             <div>
               <input type="checkbox" id="interscope" />
